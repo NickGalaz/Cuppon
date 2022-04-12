@@ -1,9 +1,8 @@
-
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-  .colornavbarsup {
+.colornavbarsup {
     background-color: #28A745;
 }
 
@@ -36,21 +35,21 @@ body {
 }
 
 .precio1 {
-   font-weight: 300;
-   font-size: 16pt;
-   color: #707070
+    font-weight: 300;
+    font-size: 16pt;
+    color: #707070
 }
 
 .precio2 {
     font-weight: 300;
     font-size: 20pt;
-    color:#28A745;
+    color: #28A745;
 }
 
 .derechos {
     font-weight: 300;
     font-size: 16pt;
-    color:#707070;
+    color: #707070;
     text-align: center;
 }
 
@@ -59,10 +58,13 @@ body {
     width: 100%;
 
 }
-.frase-form {color: white;
-font-size: 21pt;}
 
-.img-final{
+.frase-form {
+    color: white;
+    font-size: 21pt;
+}
+
+.img-final {
     width: 18%;
 }
 
@@ -73,18 +75,18 @@ font-size: 21pt;}
 
 
 .card img {
-  
-    max-height: 1250px;
-   
-  }
 
- /* El media query funciona cuando se cumple cierta condicion, en este caso cuando el ancho de dispositivo sea de un máximo de 960px este modificará el .card img 
+    max-height: 1250px;
+
+}
+
+/* El media query funciona cuando se cumple cierta condicion, en este caso cuando el ancho de dispositivo sea de un máximo de 960px este modificará el .card img 
 sobre escribiendo los valores que te tenia anteriormente */
-@media screen and (max-width:960px){
-    .card img{
-    
-    max-height: 500px;
-   
-  }
-    
-  } 
+@media screen and (max-width:960px) {
+    .card img {
+
+        max-height: 500px;
+
+    }
+
+}
